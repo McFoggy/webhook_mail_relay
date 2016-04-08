@@ -1,0 +1,15 @@
+{
+  "name": "webhook_mail_relay",
+  "version": "1.0.0",
+  "description": "Simple webhook mail relay",
+  "author": "Matthieu Brouillard <matthieu@brouillard.fr>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+	"body-parser": "^1.15.0",
+	"nodemailer": "2.3.1"
+  }
+}
